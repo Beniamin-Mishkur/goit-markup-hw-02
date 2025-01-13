@@ -73,16 +73,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  /* border-radius: 4px; */
-  /* padding: 16px 32px; */
-  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   background-color: #4d5ae5;
   cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   background: #404bbf;
 }
 
@@ -120,9 +116,6 @@ a {
   background-color: #ffffff;
 }
 
-/* .team-member-photo {
-  align-items: center;
-} */
 
 .team-member-name {
   font-weight: 500;
