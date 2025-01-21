@@ -194,9 +194,6 @@ img {
   overflow: hidden;
 }
 
-.arguments-container {
-}
-
 .arguments-list {
   display: flex;
   max-width: 1128px;
@@ -205,11 +202,11 @@ img {
 }
 
 .arguments-list-item {
-  max-width: calc((1128px - 72px) / 4);
+  width: calc((1128px - 72px) / 4);
 }
 
 .arguments-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .arguments-list-item .arguments-title {
@@ -261,7 +258,7 @@ img {
 }
 
 .team-member-descr {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-member-name {
@@ -290,7 +287,7 @@ img {
   padding-bottom: 120px;
 }
 .our-portfolio {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -339,8 +336,6 @@ img {
   color: #434455;
 }
 
-
-
 .page-footer {
   background-color: #2e2f42;
   padding-top: 100px;
@@ -348,6 +343,8 @@ img {
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -357,8 +354,6 @@ img {
 }
 
 .footer-logo .logo-part {
-  display: inline-block;
-  margin-bottom: 16px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
