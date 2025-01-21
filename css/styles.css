@@ -155,7 +155,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  width: 496px;
+  max-width: 496px;
 }
 
 .hero-btn {
@@ -171,6 +171,9 @@ img {
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   text-align: center;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .hero-btn:hover,
@@ -230,7 +233,7 @@ img {
 }
 
 .our-team {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -252,7 +255,7 @@ img {
   border-radius: 0 0 4px 4px;
   padding: 0px;
   width: 264px;
-  max-width: calc((100%));
+  width: calc((100% - 72px) / 3);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -262,7 +265,8 @@ img {
 }
 
 .team-member-name {
-  padding-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -272,6 +276,7 @@ img {
 }
 
 .team-member-role {
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -280,8 +285,11 @@ img {
   color: #434455;
 }
 
-.our-portfolio {
+.section-portfolio {
   padding-top: 120px;
+  padding-bottom: 120px;
+}
+.our-portfolio {
   padding-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -295,8 +303,9 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 120px;;
-  gap: 24px;
+  padding-bottom: 120px;
+  column-gap: 24px;
+  row-gap: 48px;
   margin: auto;
   width: 1128px;
 }
@@ -315,7 +324,7 @@ img {
 }
 
 .service-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -349,6 +358,8 @@ footer {
 }
 
 .footer-logo .logo-part {
+  display: inline-block;
+  margin-bottom: 16px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -358,7 +369,6 @@ footer {
 }
 
 .footer-text {
-  padding-top: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
